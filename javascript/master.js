@@ -8,7 +8,6 @@ window.onload = function () {
   window.addEventListener("scroll", () => {
     let scrollTop = document.documentElement.scrollTop;
     scroller.style.width = `${(scrollTop / height) * 100}%`;
-    console.log(scroller.style.width);
   });
 
   //   update the year dynamically
