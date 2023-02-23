@@ -21,6 +21,16 @@ body {
     position: relative;
 }
 
+body .scroller {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 5px;
+    width: 0px;
+    background-color: var(--mainColor);
+}
+
 body .icon {
     display: flex;
     align-items: center;
